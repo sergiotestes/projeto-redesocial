@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body{
+    height: 100vh;
+    width: 100vw;
+    background-color: aquamarine;
+}
+
+body{
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+}
+
+main{
+    position: relative;
+    height: 100vh;
+}
+
+#cell{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    height: 695px;
+    width: 350px;
+    background: blue url(../imagens/ii15.png) no-repeat;
+}
