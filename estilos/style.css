@@ -29,5 +29,13 @@ main{
 
     height: 695px;
     width: 350px;
-    background: blue url(../imagens/ii15.png) no-repeat;
+    background: url(../imagens/frame-iphone.png) no-repeat;
+}
+
+iframe#tela{
+    position: relative;
+    top: 80px;
+    left: 22px;
+    width: 269px;
+    height: 471px;
 }
